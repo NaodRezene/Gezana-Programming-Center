@@ -1,0 +1,195 @@
+* {
+    padding-top: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+body {
+    background: #444;
+    color: aqua;
+}
+
+.main {
+    padding-top: 60px;
+    
+}
+
+nav {
+    display: flex;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    z-index: 200px;
+    vertical-align: top;
+}
+
+.first {
+    font-size: 19px;
+    margin-left: 16px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+}
+
+.h1, .h2,  .h3 {
+    position: relative;
+}
+
+.h1:hover, .h2:hover, .h3:hover {
+    background-color: gray;
+    /* padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px; */
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.h1 {
+    flex-direction: row;
+}
+
+.h2 {
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.h3 {
+    flex-direction: row;
+}
+
+.second {
+    border-radius: 8px;
+    left: 50px;
+}
+
+.btn {
+    color: white;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-radius: 8px;
+}
+
+.btn1 {
+    border-radius: 8px;
+    color: aqua;
+    background-color: #444;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border: none;
+    
+}
+
+.btn:hover {
+    background-color: aqua;
+    color: #444;
+    transition: 0.2s;
+}
+
+.btn:active {
+    background-color: #444;
+    color: aqua;
+}
+
+.btn {
+    color: aqua;
+    background-color: #444;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border: none;
+}
+
+.btn1:hover {
+    background-color: aqua;
+    color: #444;
+    transition: 0.2s;
+}
+
+.btn1:active {
+    background-color: #444;
+}
+
+
+.main {
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 20px;
+    padding: 100px;
+    justify-content: space-between;
+    background-color: #333;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.group-1 {
+    padding: 18px;
+    width: 500px;
+}
+
+.par-p {
+    font-size: 30px;
+}
+
+.par-p {
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.home-image {
+    width: 700px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    margin-top: 4px;
+}
+
+.Search-input {
+    border-radius: 4px;
+    margin-top: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.Search-button {
+    padding: 6px;
+    background-color: rgba(0, 255, 255, 0.863);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.Search-input:active {
+    border-color: aqua;
+    border-style: solid;
+    border-width: 4px;
+}
